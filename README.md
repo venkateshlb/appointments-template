@@ -1,6 +1,6 @@
 ## Appointments Template
 
-This repo will create the CRUD operation template required for appointments project.
+This repo will generate the CRUD operation template required for appointments project.
 
 ![https://github.com/venkateshlb/manage-images/blob/master/appointments-template.png](https://github.com/venkateshlb/manage-images/blob/master/appointments-template.png)
 # What you should do?
@@ -21,6 +21,6 @@ Enter your desired template name
 Hello, Enter the Template name
 ```
 
-This will generate you the apppointment template codes. 
+This will generate you the appointments template codes. 
 
 **That is it and you have made it**
