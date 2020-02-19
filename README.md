@@ -26,9 +26,13 @@ This will generate you the appointments template codes in the below folder struc
 ```
 template_name
   - create-template_name
+    - lambda.go
   - update-template_name
+    - lambda.go
   - delete-template_name
+    - lambda.go
   - get-template_name
+    - lambda.go
   
 ```
 
