@@ -2,7 +2,7 @@
 
 This repo will create the CRUD operation template required for appointments project.
 
-
+![https://github.com/venkateshlb/manage-images/blob/master/appointments-template.png](https://github.com/venkateshlb/manage-images/blob/master/appointments-template.png)
 # What you should do?
 
 Clone this repo and execute this command
