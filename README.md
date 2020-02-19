@@ -21,6 +21,15 @@ Enter your desired template name
 Hello, Enter the Template name
 ```
 
-This will generate you the appointments template codes. 
+This will generate you the appointments template codes in the below folder structure
+
+```
+template_name
+  - create-template_name
+  - update-template_name
+  - delete-template_name
+  - get-template_name
+  
+```
 
 **That is it and you have made it**
