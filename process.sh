@@ -14,14 +14,16 @@ then
     mkdir ./$templateName/"get-$templateName"
 fi
 
+capitalizeTemplate="$(tr '[:lower:]' '[:upper:]' <<< ${templateName:0:1})${templateName:1}"
+
 ## Create
-sed 's/CreateSession/Create'$templateName'/g' template/create-session/lambda.go > $templateName/create-$templateName/lambda.go
+sed 's/CreateSession/Create'$capitalizeTemplate'/g' template/create-session/lambda.go > $templateName/create-$templateName/lambda.go
 
 ## Update
-sed 's/UpdateSession/Update'$templateName'/g' template/update-session/lambda.go > $templateName/update-$templateName/lambda.go
+sed 's/UpdateSession/Update'$capitalizeTemplate'/g' template/update-session/lambda.go > $templateName/update-$templateName/lambda.go
 
 ## Delete
-sed 's/DeleteSession/Delete'$templateName'/g' template/delete-session/lambda.go > $templateName/delete-$templateName/lambda.go
+sed 's/DeleteSession/Delete'$capitalizeTemplate'/g' template/delete-session/lambda.go > $templateName/delete-$templateName/lambda.go
 
 ## Get
-sed 's/DeleteSession/Get'$templateName'/g' template/get-session/lambda.go > $templateName/get-$templateName/lambda.go
+sed 's/DeleteSession/Get'$capitalizeTemplate'/g' template/get-session/lambda.go > $templateName/get-$templateName/lambda.go
