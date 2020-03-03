@@ -24,6 +24,20 @@ Enter your desired template name
 Enter the Template name:
 ```
 
+Step 3 - 
+Type any one of the below input to perform the code genaration
+
+```shell
+* Type all for whole CRUD templates or
+* Type create for Create template
+* Type update for Update template
+* Type delete for Delete template
+* Type get for Get template:
+```
+`Template Generation Successfull...` 
+
+You will see the success message once the template is generated!
+
 This will generate you the appointments template codes in the below folder structure
 
 ```
@@ -37,6 +51,20 @@ template_name
   - get-template_name
      -- lambda.go
   
+```
+
+Similarly you can try executing lambda to create lambda package specifically
+
+```shell 
+make lambda
+----- Hello, Welcome to Lambda Template Generator -----
+Enter the Lambda template name: lambdaOne
+* Type all for whole CRUD templates or
+* Type create for Create template
+* Type update for Update template
+* Type delete for Delete template
+* Type get for Get template: create
+Lambda Template Generation Successfull...
 ```
 
 **That is it and you have made it**
