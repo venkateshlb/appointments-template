@@ -7,7 +7,7 @@ This repo will generate the CRUD operation template required for appointments pr
 
 Clone this repo and execute this command and here is a demonstration
 
-![https://github.com/venkateshlb/manage-images/blob/master/makeCommandExecution.gif](https://github.com/venkateshlb/manage-images/blob/master/makeCommandExecution.gif)
+![https://github.com/venkateshlb/manage-images/blob/master/makeExecutionSteps.gif](https://github.com/venkateshlb/manage-images/blob/master/makeExecutionSteps.gif)
 
 Step 1 - 
 
