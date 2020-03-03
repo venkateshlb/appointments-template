@@ -24,9 +24,11 @@ explain:
 	@cat Makefile* | grep -E '^[a-zA-Z_-]+:.*?## .*$$' | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: template
-template: ## Create a template
+template: ## Create a template as a package (Lambda, Service and a Handler)
 	sh process.sh
+	@echo "Template Generation Successfull..."
 
 .PHONY: lambda
 lambda: ## Create a Lambda template
 	sh lambda.sh
+	@echo "Lambda Template Generation Successfull..."
