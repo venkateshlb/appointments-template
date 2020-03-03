@@ -17,7 +17,8 @@ explain:
 	#
 	### Basically, you can create an appointment template by running this command
 	#
-	# $$ make template
+	# $$ make template - Create a template as a package (Lambda, Service and a Handler)
+	# $$ make lambda   - Create a lambda template
 	#
 	### Targets
 	@cat Makefile* | grep -E '^[a-zA-Z_-]+:.*?## .*$$' | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
@@ -25,3 +26,7 @@ explain:
 .PHONY: template
 template: ## Create a template
 	sh process.sh
+
+.PHONY: lambda
+lambda: ## Create a Lambda template
+	sh lambda.sh

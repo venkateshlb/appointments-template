@@ -43,6 +43,6 @@ func handleRequest(request events.APIGatewayProxyRequest) (events.APIGatewayProx
 		return response.CreateErrorResponse(int(http.StatusInternalServerError), constant.InternalError), nil
 	}
 	handler := handler.NewLambdaHandler()
-	response := handler.CreateSession(request)
+	response := handler.create(request)
 	return response, nil
 }
