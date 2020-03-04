@@ -35,12 +35,11 @@ Type any one of the below input to perform the code genaration
 * Type get for Get template:
 ```
 
-You can also refer the demonstration
-`Template Generation Successfull...` 
+You can also refer the demonstration. You will see the success message once the template is generated!
 
-You will see the success message once the template is generated!
+```Template Generation Successfull...``` 
 
-This will generate you the appointments template codes in the below folder structure
+Appointments template codes would be created in the below folder structure
 
 ```
 template_name
@@ -55,7 +54,7 @@ template_name
   
 ```
 
-Similarly you can try executing lambda to create lambda package specifically
+Similarly you can create Lambda template package
 
 ```shell 
 make lambda
