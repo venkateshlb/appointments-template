@@ -34,6 +34,11 @@ Type any one of the below input to perform the code genaration
 * Type delete for Delete template
 * Type get for Get template:
 ```
+```shell
+all
+```
+
+You can also refer the demonstration
 `Template Generation Successfull...` 
 
 You will see the success message once the template is generated!
