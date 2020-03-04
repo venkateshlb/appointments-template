@@ -32,8 +32,8 @@ Type any one of the below input to perform the code genaration
 * Type create for Create template
 * Type update for Update template
 * Type delete for Delete template
-* Type get for Get template:```  all
-
+* Type get for Get template:
+```
 
 You can also refer the demonstration
 `Template Generation Successfull...` 
