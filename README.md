@@ -41,6 +41,18 @@ You can also refer the demonstration. You will see the success message once the 
 
 Appointments template codes would be created in the below folder structure
 
+Create Folder Structure
+```
+📦create-Session
+ ┣ 📂handler
+ ┃ ┗ 📜handler.go
+ ┣ 📂lambda
+ ┃ ┗ 📜lambda.go
+ ┗ 📂service
+ ┃ ┗ 📜service.go
+```
+
+Whole CRUD folder structure
 ```
 📦Session
  ┣ 📂create-Session
