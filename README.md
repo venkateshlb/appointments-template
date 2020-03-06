@@ -36,6 +36,14 @@ Step 2 -
 $$ make template NAME="templateName" CRUD="all"
 ```
 
+CRUD Operation Parameter - 
+```
+all    - Generate whole CRUD Template
+create - Generate Create template
+update - Generate Update template
+delete - Generate Delete template
+get    - Generate Get template
+```
 Step 3 -
 
 You can also refer the demonstration. You will see the success message once the template is generated!
