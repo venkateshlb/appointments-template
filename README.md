@@ -41,6 +41,7 @@ You can also refer the demonstration. You will see the success message once the 
 
 Appointments template codes would be created in the below folder structure
 
+```
 📦Session
  ┣ 📂create-Session
  ┃ ┣ 📂handler
@@ -70,6 +71,8 @@ Appointments template codes would be created in the below folder structure
  ┃ ┃ ┗ 📜lambda.go
  ┃ ┗ 📂service
  ┃ ┃ ┗ 📜service.go
+ ```
+ 
 
 Similarly you can create Lambda template package
 
