@@ -3,9 +3,13 @@
 This tool will generate the CRUD operation template required for appointments project.
 
 ![https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplainOperation.png](https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplainOperation.png)
+
+# Demonstration
+![https://github.com/venkateshlb/manage-images/blob/master/makeCommandExecution.gif](https://github.com/venkateshlb/manage-images/blob/master/makeCommandExecution.gif)
 # What you should do?
 
-Clone this repo and execute this command and here is a demonstration
+Clone this repo and execute this command
+
 
 Step 1 - 
 Explain will list all the avaiable commands
