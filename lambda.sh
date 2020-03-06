@@ -18,7 +18,7 @@ writePackages() {
     mkdir ./$lambdaName/$getParam-$lambdaName/lambda
 
     ## Lambda
-    sed 's/'$getParam'/'$capitalizeParam$capitalizeLambda'/g' template/$getParam-session/lambda.go > $lambdaName/$getParam-$lambdaName/lambda/lambda.go
+    sed 's/'$getParam'/'$capitalizeParam$capitalizeLambda'/g' assets/template/$getParam-session/lambda.go > $lambdaName/$getParam-$lambdaName/lambda/lambda.go
 }
 
 createAllLambdaTemplate() {
