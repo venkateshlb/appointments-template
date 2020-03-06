@@ -8,35 +8,41 @@ This tool will generate the CRUD operation template required for appointments pr
 Clone this repo and execute this command and here is a demonstration
 
 Step 1 - 
-
+Explain will list all the avaiable commands
 ```shell 
-make template
+$$ make explain
 ```
 
-Step 2 -
+Step 2 - 
 
-Enter your desired template name
-
-``` shell
------ Hello, Welcome to Template Generator -----
-Enter the Template name:
+	# Generate all CRUD Template 
+	# 	$$ make template NAME="templateName" CRUD="all"
+	#
+	# Generate create Template 
+	# 	$$ make template NAME="templateName" CRUD="create"
+	#
+	# Generate update Template 
+	# 	$$ make template NAME="templateName" CRUD="update"
+	#
+	# Generate delete Template 
+	# 	$$ make template NAME="templateName" CRUD="delete"
+	#
+	# Generate get Template 
+	# 	$$ make template NAME="templateName" CRUD="get"
+ 
+ To generate a template run the below command where templateName is the name of your template (i.e session, appointments etc) and input the crud operation.
+ 
+```shell 
+$$ make template NAME="templateName" CRUD="all"
 ```
 
-Step 3 - 
-Type any one of the below input to perform the code genaration
-
-```shell
-* Type all for whole CRUD templates or
-* Type create for Create template
-* Type update for Update template
-* Type delete for Delete template
-* Type get for Get template:
-```
+Step 3 -
 
 You can also refer the demonstration. You will see the success message once the template is generated!
 
 ```Template Generation Successfull...``` 
 
+## Folder Structure
 Appointments template codes would be created in the below folder structure
 
 Create Folder Structure
@@ -82,20 +88,5 @@ Whole CRUD folder structure
  ┃ ┗ 📂service
  ┃ ┃ ┗ 📜service.go
  ```
- 
-
-Similarly you can create Lambda template package
-
-```shell 
-make lambda
------ Hello, Welcome to Lambda Template Generator -----
-Enter the Lambda template name: lambdaOne
-* Type all for whole CRUD templates or
-* Type create for Create template
-* Type update for Update template
-* Type delete for Delete template
-* Type get for Get template: create
-Lambda Template Generation Successfull...
-```
 
 **That is it and you have made it**
