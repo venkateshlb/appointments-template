@@ -41,18 +41,35 @@ You can also refer the demonstration. You will see the success message once the 
 
 Appointments template codes would be created in the below folder structure
 
-```
-template_name
-  - create-template_name
-     -- lambda.go
-  - update-template_name
-     -- lambda.go
-  - delete-template_name
-     -- lambda.go
-  - get-template_name
-     -- lambda.go
-  
-```
+📦Session
+ ┣ 📂create-Session
+ ┃ ┣ 📂handler
+ ┃ ┃ ┗ 📜handler.go
+ ┃ ┣ 📂lambda
+ ┃ ┃ ┗ 📜lambda.go
+ ┃ ┗ 📂service
+ ┃ ┃ ┗ 📜service.go
+ ┣ 📂delete-Session
+ ┃ ┣ 📂handler
+ ┃ ┃ ┗ 📜handler.go
+ ┃ ┣ 📂lambda
+ ┃ ┃ ┗ 📜lambda.go
+ ┃ ┗ 📂service
+ ┃ ┃ ┗ 📜service.go
+ ┣ 📂get-Session
+ ┃ ┣ 📂handler
+ ┃ ┃ ┗ 📜handler.go
+ ┃ ┣ 📂lambda
+ ┃ ┃ ┗ 📜lambda.go
+ ┃ ┗ 📂service
+ ┃ ┃ ┗ 📜service.go
+ ┗ 📂update-Session
+ ┃ ┣ 📂handler
+ ┃ ┃ ┗ 📜handler.go
+ ┃ ┣ 📂lambda
+ ┃ ┃ ┗ 📜lambda.go
+ ┃ ┗ 📂service
+ ┃ ┃ ┗ 📜service.go
 
 Similarly you can create Lambda template package
 
