@@ -5,7 +5,7 @@ This tool will generate the CRUD operation template required for appointments pr
 ![https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplainOperation.png](https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplainOperation.png)
 
 # Demonstration
-![https://github.com/venkateshlb/manage-images/blob/master/TemplateGenAppointments.gif](https://github.com/venkateshlb/manage-images/blob/master/TemplateGenAppointments.gif)
+![https://github.com/venkateshlb/manage-images/blob/master/TemplateGeneratorAppoint.gif](https://github.com/venkateshlb/manage-images/blob/master/TemplateGeneratorAppoint.gif)
 # What you should do?
 
 Clone this repo and execute this command
