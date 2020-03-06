@@ -1,8 +1,8 @@
 ## Appointments Template
 
-This repo will generate the CRUD operation template required for appointments project.
+This tool will generate the CRUD operation template required for appointments project.
 
-![https://github.com/venkateshlb/manage-images/blob/master/appointmentsTemplate.png](https://github.com/venkateshlb/manage-images/blob/master/appointmentsTemplate.png)
+![https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplain.png](https://github.com/venkateshlb/manage-images/blob/master/AppointsTemplateExplain.png)
 # What you should do?
 
 Clone this repo and execute this command and here is a demonstration
